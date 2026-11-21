@@ -1,0 +1,24 @@
+﻿REFERENCE COMPARISON
+PhotoCompare 2.1 · 2026-11-21 21:59
+Less detail than the reference
+Test: D:\0_OddSystems_Work\ThermalFocusAssistant_Ready\reference-sharpness-comparator\tests\output\working.png
+Reference: D:\0_OddSystems_Work\ThermalFocusAssistant_Ready\reference-sharpness-comparator\tests\output\reference.png
+Relative detail: 62.983%; change: -37.017%
+Test-image shift: dx=0, dy=0 px; NCC=0.998
+ROI NCC=0.995; fractional estimate=-0.254,0.034; local-shift spread=0 px.
+Local detail: median=67.155%; P25–P75=62.77–70.772%; below tolerance=13/16. This is variation across tiles, not a confidence interval.
+100% is the level of the selected reference, not ideal optical focus. The summary is the median amplitude ratio of EOG, Tenengrad, SML and Brenner after the same Gaussian σ=0.7 px filter without contrast correction. Energy metrics are compared through square roots. Values above 100% are allowed. Changes in scene, scale, AGC/DDE, noise or digital sharpening can imitate a focus change. Alignment compensates integer translation only, not rotation or scale.
+
+EOG: reference=789.301; test=133.096; ratio=41.064%; processed=60.599%
+Tenengrad: reference=371.626; test=121.203; ratio=57.109%; processed=65.81%
+SML: reference=14.585; test=4.397; ratio=30.149%; processed=43.632%
+LAPV: reference=1780.528; test=50.237; ratio=16.797%; processed=37.344%
+Brenner 2D: reference=784.05; test=242.651; ratio=55.631%; processed=65.367%
+EOL (thermal): reference=59218.504; test=1777.36; ratio=17.324%; processed=37.648%
+
+Region diagnostics: 320×240 px; contrast=132; noise≈0.247; clipping=0%.
+• The correlation peak suggests a fractional pixel-grid offset. Measurements remain uninterpolated; very fine bars may show a pixel-phase error.
+• The metrics differ by more than 20 percentage points. Inspect individual values instead of relying on the median alone.
+Test SHA-256: ccdb3d974bdcff5190af247f92776f85979ea32be11bb8d96dbeabcd0b77afa3
+Reference SHA-256: 2ea9d47d2006f6d70432e191735f802bb1f44374a6ed27bd167b8f554a0598f6
+Analysis time: 100.766 ms (excluding file reading and UI rendering).

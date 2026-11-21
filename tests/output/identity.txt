@@ -1,0 +1,23 @@
+﻿REFERENCE COMPARISON
+PhotoCompare 2.1 · 2026-11-21 21:59
+Metrics are close to the reference
+Test: test-890ad25c9577412586eb669c41247712.png
+Reference: test-890ad25c9577412586eb669c41247712.png
+Relative detail: 100%; change: 0%
+Test-image shift: dx=0, dy=0 px; NCC=1
+ROI NCC=1; fractional estimate=-0.106,0.022; local-shift spread=0 px.
+Local detail: median=100%; P25–P75=100–100%; below tolerance=0/16. This is variation across tiles, not a confidence interval.
+100% is the level of the selected reference, not ideal optical focus. The summary is the median amplitude ratio of EOG, Tenengrad, SML and Brenner after the same Gaussian σ=0.7 px filter and normalization by P95−P05 contrast. Energy metrics are compared through square roots. Values above 100% are allowed. Changes in scene, scale, AGC/DDE, noise or digital sharpening can imitate a focus change. Alignment compensates integer translation only, not rotation or scale.
+
+EOG: reference=1156.063; test=1156.063; ratio=100%; processed=100%
+Tenengrad: reference=549.216; test=549.216; ratio=100%; processed=100%
+SML: reference=20.49; test=20.49; ratio=100%; processed=100%
+LAPV: reference=2580.412; test=2580.412; ratio=100%; processed=100%
+Brenner 2D: reference=1148.065; test=1148.065; ratio=100%; processed=100%
+EOL (thermal): reference=86613.922; test=86613.922; ratio=100%; processed=100%
+
+Region diagnostics: 260×194 px; contrast=170; noise≈0.122; clipping=0%.
+• Contrast correction is enabled. For some patterns it can mask contrast loss caused by defocus. Compare this result with the original metric ratios.
+Test SHA-256: 
+Reference SHA-256: 
+Analysis time: 124.632 ms (excluding file reading and UI rendering).

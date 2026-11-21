@@ -1,0 +1,4 @@
+﻿file,status,relative_detail_percent,detail_index,local_p25,local_median,local_p75,lower_detail_tiles,informative_tiles,ncc,dx,dy,roi_x,roi_y,roi_width,roi_height,contrast_adjusted,tolerance_percent,tool_version,warnings,error
+"D:\0_OddSystems_Work\ThermalFocusAssistant_Ready\reference-sharpness-comparator\tests\output\reference.png","Detail index",,9.8447087955827826,,,,0,0,,,,0,0,320,240,0,,PhotoCompare 2.1,"",
+"D:\0_OddSystems_Work\ThermalFocusAssistant_Ready\reference-sharpness-comparator\tests\output\missing.png",error,,,,,,,,,,,,,,,,,PhotoCompare 2.1,,"File not found."
+"D:\0_OddSystems_Work\ThermalFocusAssistant_Ready\reference-sharpness-comparator\tests\output\working.png","Detail index",,7.6567595251883773,,,,0,0,,,,0,0,320,240,0,,PhotoCompare 2.1,"",

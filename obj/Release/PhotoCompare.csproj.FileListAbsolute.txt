@@ -1,0 +1,5 @@
+D:\0_OddSystems_Work\ThermalFocusAssistant_Ready\reference-sharpness-comparator\bin\Release\PhotoCompare.exe
+D:\0_OddSystems_Work\ThermalFocusAssistant_Ready\reference-sharpness-comparator\bin\Release\PhotoCompare.pdb
+D:\0_OddSystems_Work\ThermalFocusAssistant_Ready\reference-sharpness-comparator\obj\Release\PhotoCompare.csprojResolveAssemblyReference.cache
+D:\0_OddSystems_Work\ThermalFocusAssistant_Ready\reference-sharpness-comparator\obj\Release\PhotoCompare.exe
+D:\0_OddSystems_Work\ThermalFocusAssistant_Ready\reference-sharpness-comparator\obj\Release\PhotoCompare.pdb
